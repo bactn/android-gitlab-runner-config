@@ -39,7 +39,7 @@ lint_dev:
   tags:
     - linux4
   script:
-    - ./gradlew -Pci --console=plain :app:lintDebug -PbuildDir=lint
+    - ./gradlew ktlint
 
 # Build job
 # Add other build targets here
